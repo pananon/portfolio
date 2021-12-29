@@ -1,0 +1,50 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.about-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.about-right{
+    flex: 1;
+}
+.about-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.about-card.bg{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    background-color: grey;
+
+
+}
+.about-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-title{
+    font-size:60px;
+}
+
+.about-sub{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+.about-description{
+    font-size: 18px;
+}

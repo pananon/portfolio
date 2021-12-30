@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/about/About';
 import Intro from './components/intro/Intro'
+import ProductList from './components/productList/ProductList';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     
       <Intro />
       <About />
-
+      <ProductList />
     </div>
   );
 }

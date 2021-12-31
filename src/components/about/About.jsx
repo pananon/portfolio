@@ -40,19 +40,19 @@ function About() {
                 <div className='spacer icons'>
                 <div className="social-handles">
                     <div className="social-handles-items">
-                    <a href="https://www.linkedin.com/in/harimangal-pandey-14771640/">
+                    <a href="https://www.linkedin.com/in/harimangal-pandey-14771640/" target="_blank" rel='noreferrer'>
                         <img alt="" className='social-handle-images' src="https://i.pinimg.com/originals/de/b4/6f/deb46f02a59e3b3a2aa58fac16290d63.gif"
                         width="40" height="40"/>
                         </a>
                     </div>
                     <div className="social-handles-items">
-                    <a href="https://twitter.com/harimangalp">
+                    <a href="https://twitter.com/harimangalp" target="_blank" rel='noreferrer'>
                         <img alt="" className='social-handle-images' src="https://techcrunch.com/wp-content/uploads/2014/06/twitter-rise.gif?w=730&crop=1"
                         width="40" height="40"/>
                         </a>
                     </div>
                     <div className="social-handles-items">
-                        <a href="https://instagram.com/divinecoded">
+                        <a href="https://instagram.com/divinecoded" target="_blank" rel='noreferrer'>
                         <img alt="" className='social-handle-images' src="https://i0.wp.com/www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-gif-dot-flashing.gif"
                         width="40" height="40" />
                         </a>

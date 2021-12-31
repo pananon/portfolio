@@ -52,7 +52,7 @@ function Contact() {
                         <input style={{backgroundColor:darkMode?'#333':'white'}} type="text" placeholder='Subject' name="user_subject" />
                         <input style={{backgroundColor:darkMode?'#333':'white'}} type="text" placeholder='Email' name="user_email" />
                         <textarea style={{backgroundColor:darkMode?'#333':'white'}} rows="5" placeholder='Message' name="message"></textarea>
-                        <button>Submit</button>
+                        <button className='glow-on-hover'>Submit</button>
                         {done===2?"Thank you for contacting":""}
                         {done===3?"There were some error and we couldn't recieve your mail":""}
                     </form>

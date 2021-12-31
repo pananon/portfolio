@@ -1,16 +1,18 @@
 .contact{
     height: 100vh;
     position: relative;
+    background-image: url("../../images/footer.png");
+    background-size: cover;
 }
 
 .contact-bg{
-    width: 20px;
+    width: 25px;
     height: 100vh;
     background-color: aquamarine;
     position: absolute;
 }
 .contact-wrapper{
-    padding: 50px;
+    padding: 100px;
     display: flex;
 }
 .contact-left{
@@ -25,15 +27,19 @@
 }
 
 .contact-title{
+    display: flex;
     font-size: 60px;
     width: 80%;
+    justify-content: center;
 }
 .contact-info-item{
     display: flex;
     align-items: center;
     margin:50px 0px;
+    margin-left: 20%;
     font-weight: 300;
     width: 70%;
+    justify-content: flex-start;
 }
 .contact-icon{
     width: 30px;
@@ -41,7 +47,8 @@
     margin-right: 20px;
 }
 .contact-desc{
-    font-weight: 200;
+    font-weight: 800;
+    font-size: 30px;
 }
 form{
     margin-top: 20px;

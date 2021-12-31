@@ -1,7 +1,20 @@
+
 .about{
     height: 100vh;
     display: flex;
     align-items: center;
+    background-image: url("../../images/svg.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+}
+.spacer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.spacer.icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .about-left{
     flex: 1;
@@ -25,7 +38,7 @@
     position: absolute;
     top: 50px;
     left:50px;
-    background-color: grey;
+    
 
 
 }
@@ -37,18 +50,46 @@
 
 .about-title{
     font-size:60px;
+    margin-bottom: 40px;
 }
 
 .about-sub{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 800;
     font-style: italic;
-
+    width: 80%;
+    margin-bottom: 15px;
 }
 .about-description{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    text-decoration: solid;
+    text-shadow: 10px;
+    font-style: italic;
 }
+.desc-not-coding{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.social-handles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50%;
+    width: 40%;
+    margin-top: 10px;
+}
+.social-handles-items{
+    display: flex;
+    border-radius: 50%;
+}
+.social-handles-images{
+    display: flex;
+    width:40px;
+    height: 40px;
 
+}
 @media screen and (max-width:480px) {
     .about{
         flex-direction: column;

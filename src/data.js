@@ -15,7 +15,7 @@ export const products=[
         id: 3,
         alt: "Instagram",
         img: "https://i.giphy.com/media/uo6rcjwHSAFsQ/200.webp",
-        link:"www.instagram.com/divinecoded",
+        link:"https://instagram.com/divinecoded",
     },
     {
         id: 4,

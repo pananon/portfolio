@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import './about.css'
-import me from '../../images/myself.jpg'
+import me from '../../images/nowhiteside.jpg'
 import {ThemeContext} from '../../context'
 
 
@@ -24,18 +24,17 @@ function About() {
                 I'm a Front End Developer from Noida, India.
                 </div>
                 <div className="about-description">
-                
+                <br/><br/>
                 I enjoy taking complex problems and turning them into simple and beautiful interface designs.
                 I also love the logic and structure of coding and always strive to write elegant and
-                efficient code whether <strong>Javascript</strong>, <strong>React</strong> , <strong>JSX</strong> , <strong>HTML</strong> , <strong>CSS</strong>.
-                <div className='spacer'>
+                efficient code whether <strong><i><b>Javascript</b></i></strong>, <strong><i>React</i></strong> , <strong><i>JSX</i></strong> , <strong><i>HTML</i></strong> , <strong><i>CSS</i></strong>.
+                <br/><br/>
                 When I'm not coding or pushing pixels, you'll find me in the Gym, Chess Club, Trading Crypto Coins, 
                 or maybe writing poetries.
-                </div>
+                <br/><br/>
                 <hr/>
-                <div className='spacer'>
                 Connect with me on my social handles
-                </div>
+                
                 </div>
                 <div className='spacer icons'>
                 <div className="social-handles">

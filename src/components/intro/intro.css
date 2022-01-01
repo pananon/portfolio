@@ -100,7 +100,7 @@ bottom: 20px;
     right: 0;
 } 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:900px) {
     .intro{
         flex-direction: column;
     }
@@ -111,8 +111,11 @@ bottom: 20px;
         justify-content: center;
         text-align: center;
         height: 100%;
-      }
-      .intro-desc{
+    }
+    .intro-desc{
             display: none;
-      }
+    }
+    .intro-right{
+        display: none;
+    }
 }

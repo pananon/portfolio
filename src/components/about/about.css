@@ -39,14 +39,15 @@
     position: absolute;
     top: 50px;
     left:50px;
-    
+    width: 50%;
 
 
 }
 .about-image{
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: inherit;
+    border-radius: inherit;
 }
 
 .about-title{
@@ -91,7 +92,8 @@
     display: flex;
     width:40px;
     height: 40px;
-
+    border-radius: 50%;
+    border: 0.5px solid white;
 }
 @media screen and (max-width:900px) {
     .about{

@@ -1,13 +1,15 @@
 import React from 'react'
-// import me from '../../images/me.png'
-import avatar from '../../images/avatar.png'
+import avatar from '../../images/avatar1.png'
 import "./intro.css"
 const Intro = () => {
     return (
         <div className='intro'>
             <div className="intro-left">
                 <div className="intro-left-wrapper">
-                        <h2 className='intro-hi'> Hey! My name is</h2>
+                        <h2 className='intro-hi'> 
+                        <img src='https://1.bp.blogspot.com/-gpPCNM2JjBs/W28oMHeNHqI/AAAAAAAX7u8/LQtL7fq0ZcsDrRicHfQJQMeFpwpLlVFMwCLcBGAs/s1600/AW1528222_00.gif' alt="Hi there!" className="hi-img" />
+                        
+                        <br/><br/> I'm </h2>
                         <h1 className="intro-myname"> Pandey, Harimangal</h1>
                             <div className="intro-title">
                                 <div className="intro-title-wrapper">

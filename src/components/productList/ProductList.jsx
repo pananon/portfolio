@@ -12,7 +12,7 @@ function ProductList() {
                     Create & Inspire.
                 </h1>
                 <p className="prodList-desc">
-                    It's a creative shit 
+                     
                 </p>
             </div>
             <div className="prodList-list">

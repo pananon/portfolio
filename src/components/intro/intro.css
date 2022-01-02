@@ -9,6 +9,10 @@
     justify-content: center;
     
 }
+.hi-img{
+    height: 120px;
+    width: 150px;
+}
 .intro-right{
     /* TODO remove : Margins */
     /* margin-top:100px; */
@@ -103,12 +107,14 @@ bottom: 20px;
 @media screen and (max-width:900px) {
     .intro{
         flex-direction: column;
+        
     }
     .intro-left-wrapper {
   
         padding: 10px;
         align-items: center;
-        justify-content: center;
+        top:40%;
+        justify-content: space-evenly;
         text-align: center;
         height: 100%;
     }
@@ -117,5 +123,14 @@ bottom: 20px;
     }
     .intro-right{
         display: none;
+    }
+    .intro-title-item{
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

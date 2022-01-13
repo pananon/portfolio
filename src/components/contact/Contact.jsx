@@ -45,7 +45,7 @@ function Contact() {
                 </div>
                 <div className="contact-right">
                     <p className="contact-desc">
-                        Looking' for a <b>React Developer</b> , Contact me! 
+                        Looking' for a <b>React Developer</b>? Contact me! 
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor:darkMode?'#333':'white'}} type="text" placeholder='Name' name="user_name" />

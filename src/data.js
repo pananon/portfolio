@@ -3,13 +3,13 @@ export const products=[
     {
         id: 1,
         alt: "Crypto-World",
-        img: "https://api.apify.com/v2/key-value-stores/sH4IPmIIjsccZOm7U/records/cryptodashboo.netlify.app-scroll_original",
+        img: "https://i.ibb.co/KXpJFTY/cryptoworld.jpg",
         link:"https://cryptodashboo.netlify.app/",
     },
     {
         id: 2,
         alt: "My Portfolio",
-        img: "https://api.apify.com/v2/key-value-stores/B1EnpbHgS0vm66T9Y/records/divinecoded.netlify.app-scroll_lossy-comp",
+        img: "https://i.ibb.co/dmWT2MS/myportfolio.jpg",
         link:"https://divinecoded.netlify.app/",
     },
     {

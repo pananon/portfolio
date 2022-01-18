@@ -4,7 +4,7 @@ export const products=[
         id: 1,
         alt: "Crypto-World",
         img: "https://i.ibb.co/KXpJFTY/cryptoworld.jpg",
-        link:"https://cryptodashboo.netlify.app/",
+        link:"https://github.com/pananon/crypto-world",
     },
     {
         id: 2,

@@ -1,6 +1,8 @@
 import React from 'react'
 import avatar from '../../images/avatar3.png'
 import "./intro.css"
+import Typewriter from 'typewriter-effect';
+
 
 const Intro = () => {
     return (
@@ -13,18 +15,27 @@ const Intro = () => {
                         <br/><br/> I'm </h2>
                         <h1 className="intro-myname"> Pandey, Harimangal</h1>
                             <div className="intro-title">
-                                <div className="intro-title-wrapper">
-                                    <div className="intro-title-item"> Web Developer</div>
-                                    <div className="intro-title-item">Game Developer</div>
-                                    <div className="intro-title-item">UI/ UX Designer</div>
-                                    <div className="intro-title-item">Chess Enthusiast</div>
-                                    <div className="intro-title-item">Cryptocurrency Trader</div>
-
-                                </div>
+                            <Typewriter
+                                options={{
+                                    strings: ['Web Developer!', 'Game Developer!','UI/UX Designer!','Chess Enthusiast!','Cryptocurrency Trader!'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />                                
                             </div>
-                            <p className="intro-desc">
+                            
+                            <div className="intro-desc">
                                 I design and develop services for customers of all sizes specializing in creating stylish, modern websites, web service online
-                            </p>
+                                <br/>
+                                <br/>
+                                <div className="resume">
+                                Download my Curriculam Vitae  &nbsp; &nbsp;   
+                                <a href='https://download1478.mediafire.com/r7c8htebp4tg/75oayausmgvyzi9/Resume+%281%29.pdf'>
+                                   <button className='resume-btn'>CV</button>
+                                </a>
+                            </div>
+                            </div>
+                           
                     </div>
                 </div>
             <div className="intro-right">

@@ -47,6 +47,8 @@
 }
 .intro-title{
     height: 50px;
+    font-size: 35px;
+    font-weight: 200;
     overflow: hidden;
 }
 .intro-title-item{
@@ -57,9 +59,16 @@
     display: flex;
     align-items: center;
 }
-.intro-title-wrapper{
+/* .intro-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+} */
+.resume-btn{
+    border-radius: 50%;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 @keyframes move {

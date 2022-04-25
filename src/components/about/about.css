@@ -95,6 +95,9 @@
     border-radius: 50%;
     border: 0.5px solid white;
 }
+.india-image{
+    size: 12px;
+}
 @media screen and (max-width:900px) {
     .about{
         display: flex;
